@@ -1,0 +1,452 @@
+/* .xxx-g-btn */
+.xxx-g-btn {
+	display: inline-block;
+	border-radius: 5px;
+	padding: 15px 40px;
+	outline: none;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	cursor: pointer;
+	text-align: center;
+	color: #333e50;
+	-webkit-transition: all 0.25s;
+	-o-transition: all 0.25s;
+	transition: all 0.25s;
+}
+
+.xxx-g-btn:hover,
+.xxx-g-btn:focus {
+	border-color: #333e50;
+	color: #333e50;
+}
+
+.xxx-g-btn:disabled,
+.xxx-g-btn[disabled] {
+	opacity: 0.3;
+}
+
+.xxx-g-btn--form {
+	width: 48%;
+}
+
+/* .xxx-g-btn--green */
+.xxx-g-btn--green {
+	background-color: #95ce5a;
+	color: #fff;
+	border-color: #95ce5a;
+	-webkit-box-shadow: 0 7px 10px rgba(149, 206, 90, .4);
+	-moz-box-shadow: 0 7px 10px rgba(149, 206, 90, .4);
+	box-shadow: 0 7px 10px rgba(149, 206, 90, .4);
+	text-align: center;
+}
+
+.xxx-g-btn--green a {
+	color: #fff;
+}
+
+.xxx-g-btn--green:hover {
+	background-color: #8cc459;
+	border-color: #8cc459;
+	color: #fff;
+	-webkit-box-shadow: 0 5px 8px rgba(149, 206, 90, .8);
+	-moz-box-shadow: 0 5px 8px rgba(149, 206, 90, .8);
+	box-shadow: 0 5px 8px rgba(149, 206, 90, .8);
+}
+
+/* .xxx-g-btn--green //end */
+
+/* .xxx-g-btn--prev */
+.xxx-g-btn--prev {
+	border: none;
+	color: #388ec3;
+	padding-left: 0;
+	text-align: left;
+	background-color: transparent;
+}
+
+.xxx-g-btn--prev i {
+	vertical-align: text-bottom;
+	margin-right: 5px;
+}
+
+.xxx-g-btn--prev:hover,
+.xxx-g-btn--prev:focus {
+	color: #7bc057;
+}
+
+/* .xxx-g-btn--prev //end */
+
+.xxx-g-btn--center {
+	display: block;
+	margin: 0 auto;
+}
+
+.xxx-g-btn--100 {
+	width: 100%;
+}
+
+.xxx-g-btn--select {
+	height: 45px;
+	padding-top: 13px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+
+.xxx-g-btn--small {
+	padding-top: 9px;
+	padding-bottom: 9px;
+}
+
+.xxx-g-btn--settings {
+	padding-left: 60px;
+	position: relative;
+}
+
+.xxx-g-btn--settings::before {
+	content: "\e938";
+	font-family: "bankiros";
+	position: absolute;
+	top: 49%;
+	left: 35px;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	transform: translateY(-50%);
+	vertical-align: sub;
+	font-size: 21px;
+}
+
+/* .xxx-g-btn--reset */
+.xxx-g-btn--reset {
+	position: relative;
+	width: auto;
+	border: none;
+	color: #adb4bf;
+	font-size: 14px;
+	padding: 0 20px;
+}
+
+.xxx-g-btn--reset::before {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	width: calc(100% - 40px);
+	border-bottom: 1px dotted #adb4bf;
+	-webkit-transition: border-color 0.25s;
+	-moz-transition: border-color 0.25s;
+	-o-transition: border-color 0.25s;
+	transition: border-color 0.25s;
+}
+
+.xxx-g-btn--reset:hover::before {
+	border-color: #333e50;
+}
+
+/* .xxx-g-btn--reset //end */
+
+.xxx-g-btn--icon i {
+	margin-right: 5px;
+	vertical-align: text-bottom;
+	color: #95ce5a;
+}
+
+.xxx-g-btn--no-w100 {
+	width: auto;
+}
+
+.xxx-g-btn--fixed-white {
+	text-align: center;
+	position: fixed;
+	z-index: 50;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	border: none;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	box-shadow: 0 0 20px #adb4bf;
+}
+
+.xxx-g-btn--fixed-white i {
+	margin-right: 5px;
+	color: #95ce5a;
+	font-size: 18px;
+	vertical-align: text-bottom;
+}
+
+/* g-btn--fixed //end */
+
+.xxx-g-btn--no-bdrs {
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+}
+
+.xxx-g-btn--ico-bg {
+	position: relative;
+	padding-left: 45px;
+}
+
+/* .xxx-g-btn--ico-bg */
+.xxx-g-btn--ico-bg::after {
+	content: "";
+	top: 50%;
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	opacity: 1;
+	right: auto;
+	left: 10px;
+	filter: none;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	transform: translateY(-50%);
+	-webkit-transition: all 0.25s;
+	-o-transition: all 0.25s;
+	transition: all 0.25s;
+}
+
+.xxx-g-btn--ico-bg--wollet::after {
+	background: url(/css/new/img/wollet.svg) 0 0 no-repeat;
+}
+
+.xxx-g-btn--ico-bg--credit-cards::after {
+	background: url(/css/new/img/credit_card_simple.svg) 0 0 no-repeat;
+}
+
+/* .xxx-g-btn--ico-bg //end */
+
+.xxx-g-btn--p-10 {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.xxx-g-btn--p-15 {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.xxx-g-btn--nowrap {
+	white-space: nowrap;
+}
+
+.xxx-g-btn--aic {
+	display: flex;
+	align-items: center;
+}
+
+.xxx-g-btn--dashed {
+	border-style: dashed;
+	cursor: pointer;
+}
+
+.xxx-g-btn--middle {
+	padding-top: 11px;
+	padding-bottom: 12px;
+}
+
+.xxx-g-btn--multi > :not(:last-child) {
+	margin-right: 5px;
+}
+
+.xxx-g-btn--arrow::after {
+	margin-left: 7px;
+	display: inline-block;
+	content: "\e917";
+	font-family: "bankiros";
+	font-weight: 300;
+	-webkit-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+
+.xxx-g-btn--bell {
+	display: flex;
+	align-items: center;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.xxx-g-btn--bell::before {
+	margin-right: 10px;
+	content: "\e970";
+	font-family: "bankiros", sans-serif;
+	color: #95ce5a;
+	font-size: 25px;
+}
+
+.xxx-g-btn--bell-anim::before {
+	-webkit-animation: ring 4s .7s ease-in-out infinite;
+	-webkit-transform-origin: 50% 4px;
+	-moz-animation: ring 4s .7s ease-in-out infinite;
+	-moz-transform-origin: 50% 4px;
+	animation: ring 4s .7s ease-in-out infinite;
+}
+
+@keyframes ring {
+	0% {
+		transform: rotate(0);
+	}
+	1% {
+		transform: rotate(30deg);
+	}
+	3% {
+		transform: rotate(-28deg);
+	}
+	5% {
+		transform: rotate(34deg);
+	}
+	7% {
+		transform: rotate(-32deg);
+	}
+	9% {
+		transform: rotate(30deg);
+	}
+	11% {
+		transform: rotate(-28deg);
+	}
+	13% {
+		transform: rotate(26deg);
+	}
+	15% {
+		transform: rotate(-24deg);
+	}
+	17% {
+		transform: rotate(22deg);
+	}
+	19% {
+		transform: rotate(-20deg);
+	}
+	21% {
+		transform: rotate(18deg);
+	}
+	23% {
+		transform: rotate(-16deg);
+	}
+	25% {
+		transform: rotate(14deg);
+	}
+	27% {
+		transform: rotate(-12deg);
+	}
+	29% {
+		transform: rotate(10deg);
+	}
+	31% {
+		transform: rotate(-8deg);
+	}
+	33% {
+		transform: rotate(6deg);
+	}
+	35% {
+		transform: rotate(-4deg);
+	}
+	37% {
+		transform: rotate(2deg);
+	}
+	39% {
+		transform: rotate(-1deg);
+	}
+	41% {
+		transform: rotate(1deg);
+	}
+
+	43% {
+		transform: rotate(0);
+	}
+	100% {
+		transform: rotate(0);
+	}
+}
+
+/* .xxx-g-btn // end*/
+
+.xxx-g-btn-wrapp {
+	text-align: center;
+}
+
+.xxx-g-btn-wrapp--right {
+	text-align: right;
+}
+
+/* xxx-g-btn-more */
+.xxx-g-btn-more {
+	position: relative;
+	border: none;
+	color: #388ec3;
+	font-size: 14px;
+	background-color: transparent;
+	padding: 0 12px 0 0;
+	outline: none;
+}
+
+.xxx-g-btn-more::after {
+	content: "\e919";
+	position: absolute;
+	right: 0;
+	top: 50%;
+	font-family: "bankiros";
+	font-size: 7px;
+	-webkit-transform: translateY(-50%) rotate(-90deg);
+	-moz-transform: translateY(-50%) rotate(-90deg);
+	-ms-transform: translateY(-50%) rotate(-90deg);
+	-o-transform: translateY(-50%) rotate(-90deg);
+	transform: translateY(-50%) rotate(-90deg);
+	-webkit-transition: transform 0.25s;
+	-moz-transition: transform 0.25s;
+	-o-transition: transform 0.25s;
+	transition: transform 0.25s;
+}
+
+.xxx-g-btn-more.active::after {
+	-webkit-transform: translateY(-50%) rotate(90deg);
+	-moz-transform: translateY(-50%) rotate(90deg);
+	-ms-transform: translateY(-50%) rotate(90deg);
+	-o-transform: translateY(-50%) rotate(90deg);
+	transform: translateY(-50%) rotate(90deg);
+}
+
+/* xxx-g-btn-more //end*/
+
+/* g-btn-dotted */
+.g-btn-dotted {
+	padding: 5px 0;
+	border: none;
+	background-color: transparent;
+	font-size: 0;
+	outline: none;
+}
+
+.g-btn-dotted:hover .g-btn-dotted__dotted {
+	background-color: #95ce5a;
+}
+
+.g-btn-dotted__dotted {
+	display: inline-block;
+	width: 5px;
+	height: 5px;
+	margin-right: 2px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	background-color: #adb4bf;
+
+	-webkit-transition: background-color 0.25s;
+	-moz-transition: background-color 0.25s;
+	-o-transition: background-color 0.25s;
+	transition: background-color 0.25s;
+}
+
+.g-btn-dotted__dotted:last-child {
+	margin-right: 0;
+}
+
+/* g-btn-dotted //end*/
+
+
+

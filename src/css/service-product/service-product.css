@@ -1,0 +1,78 @@
+.xxx-service-product__open {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 2;
+}
+
+.xxx-service-product__open:after {
+	content: "\e916";
+	font-family: "bankiros";
+	position: absolute;
+	right: 0;
+	top: 50%;
+	color: #959ba4;
+	font-size: 12px;
+	-webkit-transform: translateY(-50%) rotate(135deg);
+	-ms-transform: translateY(-50%) rotate(135deg);
+	-o-transform: translateY(-50%) rotate(135deg);
+	transform: translateY(-50%) rotate(135deg);
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.xxx-service-product__open.active:after {
+	-webkit-transform: translateY(-50%) rotate(0deg);
+	-ms-transform: translateY(-50%) rotate(0deg);
+	-o-transform: translateY(-50%) rotate(0deg);
+	transform: translateY(-50%) rotate(0deg);
+}
+
+.xxx-service-product__list {
+	display: none;
+}
+
+.xxx-service-product__img {
+	max-width: 35px;
+	display: block;
+}
+
+.xxx-service-product__text-block {
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+
+.xxx-service-product__text {
+	padding-left: 15px;
+	font-size: 16px;
+	line-height: 16px;
+	font-family: "lato black", sans-serif;
+}
+
+.xxx-service-product__title {
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.xxx-service-product__item {
+	padding: 20px 15px;
+	border-top: 1px solid #e8ecef;
+}
+
+.xxx-service-product__list {
+	padding-left: 50px;
+	padding-top: 15px;
+}
+
+.xxx-service-product__list-item {
+	list-style: none;
+	padding-bottom: 15px;
+}
+
+.xxx-service-product__list-item:last-child {
+	padding-bottom: 0;
+}

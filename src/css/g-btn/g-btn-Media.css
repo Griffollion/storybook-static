@@ -1,0 +1,99 @@
+@media screen and (max-width: 740px) {
+	/* .xxx-g-btn */
+	.xxx-g-btn {
+		width: 100%;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	.xxx-g-btn--form {
+		width: 70%;
+	}
+
+	.xxx-g-btn--prev {
+		padding: 5px 0;
+	}
+
+	.xxx-g-btn--settings {
+		padding-left: 0;
+	}
+
+	.xxx-g-btn--settings::before {
+		position: static;
+		vertical-align: sub;
+		margin-right: 3px;
+	}
+
+	.xxx-g-btn--fix {
+		position: fixed;
+		z-index: 20;
+		bottom: 15px;
+		right: 15px;
+		left: 15px;
+		width: auto !important;
+		box-shadow: 0 10px 15px rgba(149, 206, 90, 0.4), 0 50px 0 50px rgba(255, 255, 255, 1), 0 30px 15px 50px rgba(255, 255, 255, 1);
+	}
+
+	.xxx-g-btn--fix-no-shadow {
+		position: fixed;
+		z-index: 20;
+		bottom: 15px;
+		right: 15px;
+		left: 15px;
+		width: auto;
+	}
+
+	.xxx-g-btn--fix-white {
+		position: fixed;
+		z-index: 20;
+		bottom: 15px;
+		right: 15px;
+		left: 15px;
+		width: auto;
+		box-shadow: 0 10px 15px rgba(169, 167, 167, 0.4), 0 50px 0 50px rgba(255, 255, 255, 1), 0 30px 15px 50px rgba(255, 255, 255, 1);
+	}
+
+	.xxx-g-btn--reset {
+		width: auto;
+		padding: 0 20px;
+	}
+
+	.xxx-g-btn--select {
+		height: auto;
+		max-height: 45px;
+	}
+
+	.xxx-g-btn--middle {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	.xxx-g-btn--mob-no100 {
+		width: auto;
+	}
+
+	.xxx-g-btn--mob-cube {
+		width: 45px;
+		height: 45px;
+		flex-shrink: 0;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.xxx-g-btn-wrapp--mob-no-p {
+		padding: 0;
+	}
+
+	.xxx-g-btn--ico-bg--credit-cards {
+		padding-left: 35px !important;
+	}
+	/* .xxx-g-btn //end */
+}
+
+@media screen and (max-width: 740px) {
+	.xxx-g-btn-wrapp {
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+}

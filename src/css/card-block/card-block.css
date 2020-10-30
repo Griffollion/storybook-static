@@ -1,0 +1,369 @@
+/* card-block по-ходу это вообще никак не относится к этому компоненту*/
+.xxx-card-block__top {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.xxx-card-block__bottom {
+	padding-top: 10px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+/* card-block //end */
+
+/* cards */
+.xxx-cards {
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: -10px;
+	margin-right: -10px;
+}
+
+.xxx-cards__item {
+	margin: 10px;
+	width: calc(100% / 4 - 20px);
+}
+
+.xxx-cards__item .xxx-card {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+/* xxx-cards--best-deals */
+.xxx-cards.xxx-cards--best-deals {
+	overflow-x: auto;
+	flex-wrap: nowrap;
+}
+
+.xxx-cards.xxx-cards--best-deals .xxx-cards__item {
+	width: calc(100% / 3 - 20px);
+	min-width: 233px;
+}
+
+/* xxx-cards--best-deals //end */
+
+/* xxx-cards--best-deals-4-cell */
+.xxx-cards.xxx-cards--best-deals-4-cell .xxx-cards__item {
+	width: calc(100% / 4 - 20px);
+	min-width: 233px;
+}
+
+/* xxx-cards--best-deals-4-cell //end */
+
+/* xxx-cards--best-first */
+.xxx-cards.xxx-cards--best-first .xxx-cards__item:first-child {
+	margin-left: 15px;
+	position: relative;
+	overflow: hidden;
+}
+
+.xxx-cards.xxx-cards--best-first .xxx-cards__item:first-child:before {
+	position: absolute;
+	z-index: 1;
+	top: 20px;
+	left: -45px;
+	padding: 2px;
+	width: 50%;
+	transform: rotate(-45deg);
+	background-color: #ffb800;
+	content: "Популярно";
+	text-align: center;
+	white-space: nowrap;
+	font-size: 10px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.xxx-cards.xxx-cards--best-first .xxx-card:hover {
+	box-shadow: none;
+}
+
+/* xxx-cards--best-first //end */
+
+/* cards //end */
+
+/* card */
+.xxx-card {
+	position: relative;
+	background-color: #fff;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	box-shadow: 0 4px 20px #eef0f2;
+	-webkit-transition: box-shadow 0.25s;
+	-moz-transition: box-shadow 0.25s;
+	-o-transition: box-shadow 0.25s;
+	transition: box-shadow 0.25s;
+	overflow: hidden;
+}
+
+.xxx-card:hover {
+	box-shadow: 0 4px 10px #cfdae5;
+}
+
+.xxx-card .xxx-g-btn {
+	position: relative;
+	z-index: 4;
+}
+
+.xxx-card__link {
+	position: absolute;
+	z-index: 3;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+.xxx-card__top {
+	height: 80px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.xxx-card__img {
+	position: relative;
+	z-index: 5;
+	max-width: 150px;
+	max-height: 45px;
+}
+
+.xxx-card__info {
+	padding: 10px 20px;
+	display: flex;
+}
+
+.xxx-card__btn {
+	text-align: center;
+	padding: 10px 20px;
+	margin-top: auto;
+	margin-bottom: 5px;
+}
+
+.xxx-card__cell {
+	width: calc(100% / 3);
+}
+
+.xxx-card__cell:not(:last-child) {
+	padding-right: 5px;
+}
+
+.xxx-card__middle {
+	padding: 15px 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid #f1f4f7;
+}
+
+.xxx-card__middle .xxx-rating-site {
+	flex-grow: 0;
+	flex-direction: column;
+	align-items: flex-end;
+}
+
+.xxx-card__middle .xxx-rating-site a {
+	position: relative;
+	z-index: 5;
+}
+
+.xxx-card__num-rating {
+	position: relative;
+	width: 25px;
+	height: 25px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid #f1f4f7;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	font-size: 14px;
+}
+
+.xxx-card__num-rating::after {
+	position: absolute;
+	left: calc(100% + 10px);
+	content: "\e94f";
+	font-family: "bankiros", Arial, Helvetica, sans-serif;
+	color: #dadee2;
+	font-size: 20px;
+}
+
+.xxx-card__bottom {
+	padding: 10px 20px;
+	word-wrap: break-word;
+	border-bottom: 1px solid #f1f4f7;
+}
+
+.xxx-card__title {
+	font-family: "lato black", sans-serif;
+}
+
+.xxx-card__title-mini {
+	font-size: 13px;
+	color: #adb4bf;
+	margin-bottom: 10px;
+}
+
+.xxx-card__row:not(:last-child) {
+	border-bottom: 1px solid #e8ecef;
+}
+
+.xxx-card__row {
+	padding: 15px 20px;
+}
+
+/* xxx-card__row--text-center */
+.xxx-card__row.xxx-card__row--text-center {
+	text-align: center;
+}
+
+/* xxx-card__row--text-center //end */
+
+/* xxx-card__row--img */
+.xxx-card__row.xxx-card__row--img {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-grow: 1;
+}
+
+/* xxx-card__row--img //end */
+
+.xxx-card__text-mini {
+	font-size: 13px;
+}
+
+.xxx-card__name {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	-webkit-transition: color 0.25s;
+	-moz-transition: color 0.25s;
+	-o-transition: color 0.25s;
+	transition: color 0.25s;
+}
+
+.xxx-card:hover .xxx-card__name {
+	color: #7bc057;
+}
+
+/* xxx-card__name--zindex */
+.xxx-card__name.xxx-card__name--zindex a {
+	position: relative;
+	z-index: 10;
+}
+
+/* xxx-card__name--zindex //end */
+
+/* xxx-card__name--best-bage-line */
+.xxx-card__name.xxx-card__name--best-bage-line {
+	position: relative;
+}
+
+.xxx-card__name.xxx-card__name--best-bage-line::before {
+	position: absolute;
+	z-index: 1;
+	bottom: -10px;
+	left: 0;
+	right: 0;
+	padding: 5px 2px 2px;
+	background-image: linear-gradient(to right, #f9d423 0%, #ff4e50 100%);
+	font-family: "lato black", sans-serif;
+	content: "Первый займ 0%";
+	text-align: center;
+	white-space: nowrap;
+	font-size: 13px;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 0;
+	display: block;
+	margin: 0 auto;
+	text-shadow: 0 0 80px rgba(255, 255, 255, 0.5);
+	-webkit-animation: aitf 5s linear infinite alternate;
+	-webkit-transform: translate3d(0, 0, 0);
+	-webkit-backface-visibility: hidden;
+	-webkit-background-size: 500%;
+	background-size: 500%;
+}
+
+/* xxx-card__name--best-bage-line //end */
+
+.xxx-card__text-middle {
+	font-size: 14px;
+}
+
+.xxx-card__accent {
+	font-family: "lato black", sans-serif;
+	font-size: 22px;
+}
+
+.xxx-card__grey-mini {
+	display: block;
+	text-align: center;
+	margin-top: 10px;
+	color: #adb4bf;
+	font-size: 12px;
+	line-height: 14px;
+}
+
+/* xxx-card--flex-column */
+.xxx-card.xxx-card--flex-column {
+	display: flex;
+	flex-direction: column;
+}
+
+/* xxx-card--flex-column //end */
+
+/* xxx-card--box-shadow-none */
+.xxx-card.xxx-card--box-shadow-none:not(:hover) {
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+
+/* xxx-card--box-shadow-none //end */
+
+/* ERROR! xxx-card--border */
+.xxx-card.xxx-card--border {
+	border: 1px solid #e8ecef;
+	border-radius: 5px;
+}
+
+/* ERROR! xxx-card--border //end */
+
+/* card //end */
+
+/* Animate Background Image */
+@-webkit-keyframes aitf {
+	0% {
+		background-position: 0 50%;
+	}
+	100% {
+		background-position: 100% 50%;
+	}
+}
+
+/* Animate Background Image //end */
+
+/*Непонятно куда засовывать*/
+.xxx-best-card-block__img {
+	flex-grow: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#special-offers .xxx-cards--best-first .xxx-cards__item:first-child:before {
+	content: none;
+}
+
+/*Непонятно куда засовывать //end */
+

@@ -1,0 +1,25 @@
+/* ------ */
+.Storybook-svgIconsList {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    grid-gap: 20px;
+}
+
+.Storybook-svgIconsList__item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #333E50;
+    border-radius: 5px;
+    min-height: 50px;
+    color: #333E50;
+}
+
+.Storybook-svgIconsList__item > img {
+    margin-right: 15px;
+}
+
+.Storybook-svgIconsList__item > span {
+    font-size: 20px;
+}

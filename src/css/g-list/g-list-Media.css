@@ -1,0 +1,13 @@
+@media screen and (max-width: 740px) {
+    /* xxx-g-list--mob-col-1 */
+      .xxx-g-list--mob-col-1 {
+          column-count: auto;
+      }
+    /* xxx-g-list--mob-col-1 //end */
+  
+    /* xxx-g-list--col-2 */
+      .xxx-g-list--col-2 {
+          column-count: auto;
+      }
+    /* xxx-g-list--col-2 //end */
+  }

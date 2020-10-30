@@ -1,0 +1,36 @@
+@media screen and (max-width: 740px) {
+	/* xxx-share--circle-big */
+	.xxx-share.xxx-share--circle-big .xxx-share__link {
+		width: 35px;
+		height: 35px;
+	}
+	/* xxx-share--circle-big //end */
+	.xxx-share > span {
+		display: none;
+	}
+
+	.xxx-share__item:first-child {
+		margin-left: 0;
+	}
+
+	.xxx-footer .xxx-share {
+		padding-top: 10px;
+		margin-top: 10px;
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		justify-content: center;
+		flex-grow: 1;
+		border-top: 1px solid #e1e1e1;
+	}
+
+	.xxx-footer .xxx-share__list {
+		padding-right: 15px;
+		padding-left: 15px;
+		flex-grow: 1;
+		justify-content: space-between;
+		width: 100%;
+	}
+}

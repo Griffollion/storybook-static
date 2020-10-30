@@ -1,0 +1,38 @@
+@media screen and (min-width: 991px) {
+	.xxx-tab--slider.xxx-tab--slider .xxx-tab__list:after {
+		display: none;
+	}
+	.xxx-tab--slider.xxx-tab--slider .xxx-tab__title:after {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 740px) {
+	.xxx-tab__overflow-x:before {
+		display: none;
+	}
+	.xxx-tab__first-cell {
+		padding-bottom: 0;
+		width: 35%;
+		padding-right: 10px;
+	}
+	.xxx-tab__second-cell {
+		width: 65%;
+	}
+	.xxx-tab__content-row {
+		padding-bottom: 15px;
+		display: flex;
+	}
+	.xxx-tab__content-inside {
+		padding: 30px 30px 60px 0;
+	}
+	.xxx-tab__list.xxx-table-list__info-tabs-menu {
+		padding: 0 20px;
+	}
+}
+
+@media screen and (max-width: 740px) {
+	.xxx-tab__list.xxx-tab__list--mob-paddings-0-15 {
+		padding: 0 15px;
+	}
+}

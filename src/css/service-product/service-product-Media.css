@@ -1,0 +1,39 @@
+@media screen and (min-width: 740px) {
+	.xxx-service-product__open {
+		display: none;
+	}
+	.xxx-service-product__list {
+		display: block;
+	}
+	.xxx-service-product__item {
+		padding: 40px 0;
+		display: flex;
+		align-items: flex-start;
+	}
+	.xxx-service-product__item:first-child {
+		padding-top: 20px;
+		border: none;
+	}
+	.xxx-service-product__list {
+		padding: 0;
+		column-count: 2;
+		width: 74%;
+	}
+	.xxx-service-product__text-block {
+		width: 26%;
+		padding-right: 10px;
+	}
+	.xxx-service-product__title {
+		padding: 0;
+	}
+	.xxx-service-product__list-item {
+		padding-bottom: 0;
+		margin-bottom: 15px;
+	}
+}
+
+@media screen and (min-width: 991px) {
+	.xxx-service-product__list {
+		column-count: 3;
+	}
+}

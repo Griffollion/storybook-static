@@ -1,0 +1,10 @@
+@media screen and (max-width: 740px) {
+	.xxx-g-link--advert-mob-p {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.xxx-g-link--mob-bd-b {
+		border-bottom: 1px dashed #000;
+	}
+}

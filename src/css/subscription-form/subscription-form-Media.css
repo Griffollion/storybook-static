@@ -1,0 +1,175 @@
+/* xxx-subscription-form--small */
+@media screen and (max-width: 740px) {
+	.xxx-subscription-form.xxx-subscription-form--small {
+		max-width: 416px;
+		width: 100%;
+		margin: 0;
+	}
+	.xxx-subscription-form.xxx-subscription-form--small .xxx-subscription-form__wrapp {
+		padding: 44px 20px 20px 20px;
+	}
+	.xxx-subscription-form.xxx-subscription-form--small h3 {
+		font-size: 18px;
+	}
+	.xxx-subscription-form.xxx-subscription-form--small p {
+		text-align: left;
+		font-size: 0;
+	}
+	.xxx-subscription-form.xxx-subscription-form--small .xxx-g-input-wrapp {
+		margin: 0;
+		-webkit-box-flex: 2;
+		-webkit-flex-grow: 2;
+		flex-grow: 2;
+	}
+	.xxx-subscription-form.xxx-subscription-form--small .xxx-g-input-row {
+		margin-top: 15px;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		-ms-flex-align: center;
+		align-items: center;
+		margin-bottom: 44px;
+	}
+	.xxx-subscription-form.xxx-subscription-form--small .xxx-g-btn--double-arrow {
+		-webkit-border-radius: 50%;
+		border-radius: 50%;
+		width: 40px;
+		height: 40px;
+		margin: 0;
+		padding: 0;
+		position: relative;
+	}
+	.xxx-subscription-form.xxx-subscription-form--small .xxx-g-btn--double-arrow:before {
+		content: "\e948";
+		font-family: "bankiros";
+		position: absolute;
+		color: #fff;
+		font-size: 18px;
+		left: 50%;
+		top: 50%;
+		-webkit-transform: translate(-44%, -50%);
+		-ms-transform: translate(-44%, -50%);
+		transform: translate(-44%, -50%);
+	}
+	.xxx-subscription-form.xxx-subscription-form--small .xxx-subscription-form__nav {
+		padding: 0;
+		margin: 0 0 0 20px;
+		position: relative;
+		font-size: 0;
+	}
+	.xxx-subscription-form.xxx-subscription-form--small .xxx-subscription-form__close {
+		top: 10px;
+		right: 10px;
+	}
+}
+
+@media screen and  (max-width: 576px) {
+	.xxx-subscription-form {
+		margin: 0;
+		max-width: 100%;
+	}
+
+	.xxx-subscription-form h3 {
+		font-size: 18px;
+	}
+
+	.xxx-subscription-form p {
+		font-size: 14px;
+	}
+
+	.xxx-subscription-form__checkbox span {
+		font-size: 14px;
+	}
+
+	.xxx-g-btn-subscription {
+		width: 100%;
+	}
+
+	.xxx-subscription-form__nav {
+		margin-bottom: 10px;
+	}
+}
+
+@media screen and  (max-width: 345px) {
+	.xxx-subscription-form.xxx-subscription-form--small h3 {
+		font-size: 16px;
+	}
+}
+
+/* .xxx-subscription-form.xxx-subscription-form--small //end */
+
+/* xxx-subscription-form.xxx-subscription-form--in-listing */
+@media screen and (max-width: 1200px) {
+	.xxx-subscription-form.xxx-subscription-form--in-listing .xxx-subscription-form__img {
+		padding: 0 10px 0 30px;
+	}
+}
+
+@media screen and (max-width: 740px) {
+	.xxx-subscription-form.xxx-subscription-form--in-listing {
+		background: url(/images/backgrounds/subscription-form/convert.svg) no-repeat center bottom;
+		background-color: #fff;
+		-webkit-background-size: 102% 102%;
+		background-size: 102%;
+		-webkit-box-pack: center;
+		-webkit-justify-content: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+	}
+	.xxx-subscription-form.xxx-subscription-form--in-listing .xxx-subscription-form__img {
+		display: none;
+	}
+	.xxx-subscription-form.xxx-subscription-form--in-listing .xxx-g-btn--double-arrow {
+		-webkit-border-radius: 50%;
+		border-radius: 50%;
+		position: relative;
+		width: 40px;
+		height: 40px;
+		margin: 0;
+		font-size: 0;
+		padding: 0;
+	}
+	.xxx-subscription-form.xxx-subscription-form--in-listing .xxx-g-btn--double-arrow:before {
+		content: "\e948";
+		font-family: "bankiros";
+		position: absolute;
+		color: #fff;
+		font-size: 18px;
+		left: 50%;
+		top: 50%;
+		-webkit-transform: translate(-44%, -50%);
+		-ms-transform: translate(-44%, -50%);
+		transform: translate(-44%, -50%);
+	}
+	.xxx-subscription-form.xxx-subscription-form--in-listing .xxx-g-input-row {
+		-webkit-box-pack: center;
+		-webkit-justify-content: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+		margin-bottom: 20%;
+	}
+	.xxx-subscription-form.xxx-subscription-form--in-listing h3 {
+		text-align: center;
+		font-size: 18px;
+	}
+	.xxx-subscription-form.xxx-subscription-form--in-listing p {
+		font-size: 0;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.xxx-subscription-form.xxx-subscription-form--in-listing .xxx-g-input-row {
+		margin-bottom: 15%;
+	}
+}
+
+@media screen and (max-width: 345px) {
+	.xxx-subscription-form.xxx-subscription-form--in-listing h3 {
+		font-size: 16px;
+	}
+}
+
+/* xxx-subscription-form.xxx-subscription-form--in-listing //end */

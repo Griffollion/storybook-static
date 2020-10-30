@@ -1,0 +1,598 @@
+	i[class*="ic-"] {
+	    /* use !important to prevent issues with browser extensions that change fonts */
+	    font-family: "bankiros" !important;
+	    speak: none;
+	    font-style: normal;
+	    font-weight: normal;
+	    font-variant: normal;
+	    text-transform: none;
+	    line-height: 1;
+
+	    /* Better Font Rendering =========== */
+	    -webkit-font-smoothing: antialiased;
+	    -moz-osx-font-smoothing: grayscale;
+	}
+
+	.ic-atm_icon:before {
+	    content: "\e900";
+	}
+
+	.ic-auto_icon:before {
+	    content: "\e901";
+	}
+
+	.ic-bank_icon:before {
+	    content: "\e902";
+	}
+
+	.ic-bank_rating_icon:before {
+	    content: "\e903";
+	}
+
+	.ic-business_icon:before {
+	    content: "\e904";
+	}
+
+	.ic-calculator_icon:before {
+	    content: "\e905";
+	}
+
+	.ic-card_icon:before {
+	    content: "\e906";
+	}
+
+	.ic-cash_icon:before {
+	    content: "\e907";
+	}
+
+	.ic-credit_icon:before {
+	    content: "\e908";
+	}
+
+	.ic-crypto_icon:before {
+	    content: "\e909";
+	}
+
+	.ic-deposit_icon:before {
+	    content: "\e90a";
+	}
+
+	.ic-immidiate_deposit_icon:before {
+	    content: "\e90b";
+	}
+
+	.ic-mortgage_icon:before {
+	    content: "\e90c";
+	}
+
+	.ic-news_icon:before {
+	    content: "\e90d";
+	}
+
+	.ic-offices_icon:before {
+	    content: "\e90e";
+	}
+
+	.ic-refinancing_icon:before {
+	    content: "\e90f";
+	}
+
+	.ic-rub_icon_2:before {
+	    content: "\e910";
+	}
+
+	.ic-stock_icon:before {
+	    content: "\e911";
+	}
+
+	.ic-more_icon:before {
+	    content: "\e912";
+	}
+
+	.ic-exchange_icon:before {
+	    content: "\e913";
+	}
+
+	.ic-search_icon:before {
+	    content: "\e914";
+	}
+
+	.ic-location_icon:before {
+	    content: "\e915";
+	}
+
+	.ic-close_icon:before {
+	    content: "\e916";
+	}
+
+	.ic-arrow-left_icon:before {
+	    content: "\e917";
+	}
+
+	.ic-arrow-right_icon:before {
+	    content: "\e918";
+	}
+
+	.ic-arrow_light_back_icon:before {
+	    content: "\e919";
+	}
+
+	.ic-arrow_light_next_icon:before {
+	    content: "\e91a";
+	}
+
+	.ic-facebook_icon:before {
+	    content: "\e91b";
+	}
+
+	.ic-google-plus_icon:before {
+	    content: "\e91c";
+	}
+
+	.ic-odnoklassniki_icon:before {
+	    content: "\e91d";
+	}
+
+	.ic-star_icon:before {
+	    content: "\e91e";
+	}
+
+	.ic-telegram_icon:before {
+	    content: "\e91f";
+	}
+
+	.ic-twitter_icon:before {
+	    content: "\e920";
+	}
+
+	.ic-vk_icon:before {
+	    content: "\e921";
+	}
+
+	.ic-converter_icon:before {
+	    content: "\e922";
+	}
+
+	.ic-tick_icon:before {
+	    content: "\e923";
+	}
+
+	.ic-icon_chf:before {
+	    content: "\e924";
+	}
+
+	.ic-icon_cny:before {
+	    content: "\e925";
+	}
+
+	.ic-icon_eur:before {
+	    content: "\e926";
+	}
+
+	.ic-icon_gbp:before {
+	    content: "\e927";
+	}
+
+	.ic-icon_jpy:before {
+	    content: "\e928";
+	}
+
+	.ic-icon_kzt:before {
+	    content: "\e929";
+	}
+
+	.ic-icon_uah:before {
+	    content: "\e92a";
+	}
+
+	.ic-icon_usd:before {
+	    content: "\e92b";
+	}
+
+	.ic-information:before {
+	    content: "\e92c";
+	}
+
+	.ic-ethereum:before {
+	    content: "\e92d";
+	}
+
+	.ic-litecoin:before {
+	    content: "\e92e";
+	}
+
+	.ic-monero:before {
+	    content: "\e92f";
+	}
+
+	.ic-neo:before {
+	    content: "\e930";
+	}
+
+	.ic-ripple:before {
+	    content: "\e931";
+	}
+
+	.ic-zcash:before {
+	    content: "\e932";
+	}
+
+	.ic-exchange_arrows:before {
+	    content: "\e933";
+	}
+
+	.ic-listing-grid:before {
+	    content: "\e934";
+	}
+
+	.ic-table-grid:before {
+	    content: "\e935";
+	}
+
+	.ic-check_bank:before {
+	    content: "\e936";
+	}
+
+	.ic-rule:before {
+	    content: "\e937";
+	}
+
+	.ic-controls:before {
+	    content: "\e938";
+	}
+
+	.ic-user-men:before {
+	    content: "\e939";
+	}
+
+	.ic-chat:before {
+	    content: "\e93a";
+	}
+
+	.ic-user-women:before {
+	    content: "\e93b";
+	}
+
+	.ic-like:before {
+	    content: "\e93c";
+	}
+
+	.ic-phone_icon:before {
+	    content: "\e93d";
+	}
+
+	.ic-bitcoin:before {
+	    content: "\e93e";
+	}
+
+	.ic-arroba_icon:before {
+	    content: "\e93f";
+	}
+
+	.ic-logo_icon:before {
+	    content: "\e940";
+	}
+
+	.ic-sort-by-up:before {
+	    content: "\e941";
+	}
+
+	.ic-sort-by-down:before {
+	    content: "\e942";
+	}
+
+	.ic-cooperation_icon:before {
+	    content: "\e943";
+	}
+
+	.ic-pay_icon:before {
+	    content: "\e944";
+	}
+
+	.ic-laptop_icon:before {
+	    content: "\e945";
+	}
+
+	.ic-calendar_icon:before {
+	    content: "\e946";
+	}
+
+	.ic-time_icon:before {
+	    content: "\e947";
+	}
+
+	.ic-double-right-arrows_icon:before {
+	    content: "\e948";
+	}
+
+	.ic-bookmark_icon:before {
+	    content: "\e949";
+	}
+
+	.ic-eye_icon:before {
+	    content: "\e94a";
+	}
+
+	.ic-group_icon:before {
+	    content: "\e94b";
+	}
+
+	.ic-share:before {
+	    content: "\e94c";
+	}
+
+	.ic-fast:before {
+	    content: "\e94d";
+	}
+
+	.ic-dialog:before {
+	    content: "\e94e";
+	}
+
+	.ic-rating_icon:before {
+	    content: "\e94f";
+	}
+
+	.ic-ic-user:before {
+	    content: "\e950";
+	}
+
+	.ic-img_titled:before {
+	    content: "\e951";
+	}
+
+	.ic-list_markers:before {
+	    content: "\e952";
+	}
+
+	.ic-quote:before {
+	    content: "\e953";
+	}
+
+	.ic-read_more:before {
+	    content: "\e954";
+	}
+
+	.ic-offer_btn:before {
+	    content: "\e955";
+	}
+
+	.ic-priority-pass:before {
+	    content: "\e956";
+	}
+
+	.ic-lounge-key:before {
+	    content: "\e957";
+	}
+
+	.ic-icon_rub:before {
+	    content: "\e958";
+	}
+
+	.ic-metro_icon:before {
+	    content: "\e959";
+	}
+
+	.ic-ashback:before {
+	    content: "\e95a";
+	}
+
+	.ic-plane:before {
+	    content: "\e95b";
+	}
+
+	.ic-diamond:before {
+	    content: "\e95c";
+	}
+
+	.ic-delivere:before {
+	    content: "\e95d";
+	}
+
+	.ic-bonus:before {
+	    content: "\e95e";
+	}
+
+	.ic-back-arrow:before {
+	    content: "\e95f";
+	}
+
+	.ic-Visa-logo:before {
+	    content: "\e960";
+	}
+
+	.ic-mir-logo:before {
+	    content: "\e961";
+	}
+
+	.ic-mastercard-logo:before {
+	    content: "\e962";
+	}
+
+	.ic-samsung_pay:before {
+	    content: "\e963";
+	}
+
+	.ic-google-pay-icon:before {
+	    content: "\e964";
+	}
+
+	.ic-chip:before {
+	    content: "\e965";
+	}
+
+	.ic-apple_pay:before {
+	    content: "\e966";
+	}
+
+	.ic-d_secure:before {
+	    content: "\e967";
+	}
+
+	.ic-info:before {
+	    content: "\e968";
+	}
+
+	.ic-star-full:before {
+	    content: "\e969";
+	}
+
+	.ic-star:before {
+	    content: "\e96a";
+	}
+
+	.ic-unlock:before {
+	    content: "\e96b";
+	}
+
+	.ic-lock:before {
+	    content: "\e96c";
+	}
+
+	.ic-union-pay-gray:before {
+	    content: "\e96d";
+	}
+
+	.ic-paypass:before {
+	    content: "\e96e";
+	}
+
+	.ic-other_pay_system:before {
+	    content: "\e96f";
+	}
+
+	.ic-bell:before {
+	    content: "\e970";
+	}
+
+	.ic-icon_Br:before {
+	    content: "\e971";
+	}
+
+	.ic-up-arrow:before {
+	    content: "\e972";
+	}
+
+	.ic-down-arrow:before {
+	    content: "\e973";
+	}
+
+	.ic-yandex_zen_icon:before {
+	    content: "\e974";
+	}
+
+	.ic-bankiros-GP-icon:before {
+	    content: "\e975";
+	}
+
+	.ic-insurance:before {
+	    content: "\e976";
+	}
+
+	.ic-wireless:before {
+	    content: "\e977";
+	}
+
+	.ic-web-link:before {
+	    content: "\e978";
+	}
+
+	.ic-mail:before {
+	    content: "\e979";
+	}
+
+	.ic-heart:before {
+	    content: "\e97a";
+	}
+
+	.ic-heart-fill:before {
+	    content: "\e97b";
+	}
+
+	.ic-yandex:before {
+	    content: "\e97c";
+	}
+
+	.ic-linkedin_icon:before {
+	    content: "\e97d";
+	}
+
+	.ic-yt_icon:before {
+	    content: "\e97e";
+	}
+
+	.ic-expert-talk:before {
+	    content: "\e97f";
+	}
+
+	.ic-icon_disabled:before {
+	    content: "\e980";
+	}
+
+	.ic-icon_amd:before {
+	    content: "\e981";
+	}
+
+	.ic-icon_czk:before {
+	    content: "\e982";
+	}
+
+	.ic-icon_try:before {
+	    content: "\e983";
+	}
+
+	.ic-icon_zlt:before {
+	    content: "\e984";
+	}
+
+	.ic-icon_inr:before {
+	    content: "\e985";
+	}
+
+	.ic-comments:before {
+	    content: "\e986";
+	}
+
+	.ic-google-maps:before {
+	    content: "\e987";
+	}
+
+	.ic-headphone:before {
+	    content: "\e988";
+	}
+
+	.ic-phone-chat:before {
+	    content: "\e989";
+	}
+
+	.ic-papers:before {
+	    content: "\e98a";
+	}
+
+	.ic-stock-candles:before {
+	    content: "\e98b";
+	}
+
+	.ic-stock-line:before {
+	    content: "\e98c";
+	}
+
+	.ic-graphs-line:before {
+	    content: "\e98d";
+	}
+
+	.ic-download:before {
+	    content: "\e98e";
+	}
+
+	.ic-coding:before {
+	    content: "\e98f";
+	}
+
+	.ic-stock-market:before {
+	    content: "\e990";
+	}
+
+	.ic-instagram:before {
+	    content: "\e991";
+	}

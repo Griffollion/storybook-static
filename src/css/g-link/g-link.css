@@ -1,0 +1,102 @@
+.xxx-g-link {
+	position: relative;
+	background-color: transparent;
+	border: none;
+	color: #388ec3;
+	padding: 0;
+	line-height: 1;
+	outline: none;
+    cursor: pointer;
+	-webkit-transition: color 0.25s;
+	-o-transition: color 0.25s;
+	transition: color 0.25s;
+}
+
+.xxx-g-link:hover {
+	color: #7bc057;
+}
+
+.xxx-g-link::after {
+	content: '';
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	-webkit-transition: border-color 0.25s;
+	-o-transition: border-color 0.25s;
+	transition: border-color 0.25s;
+	border-bottom: 1px dotted #388ec3;
+}
+
+.xxx-g-link:hover::after {
+	border-bottom-color: #7bc057;
+}
+
+.xxx-g-link--green {
+	color: #7bc057;
+}
+
+.xxx-g-link--green::after {
+	border-bottom-color: #7bc057;
+}
+
+.xxx-g-link--black {
+	color: #333e50;
+    cursor: pointer;
+}
+
+.xxx-g-link--black:hover {
+	color: #7bc057;
+}
+
+.xxx-g-link--black:hover::after {
+	border-bottom-color: #7bc057;
+}
+
+.xxx-g-link--hover-blue:hover {
+	color: #55A3ED;
+}
+
+.xxx-g-link--hover-blue:hover::after {
+	border-bottom-color: #55A3ED;
+}
+
+.xxx-g-link--dashed::after {
+	border-bottom-style: dashed;
+}
+
+.xxx-g-link--underline {
+    text-decoration: underline;
+    -webkit-transition: all .25s;
+    -o-transition: all .25s;
+	transition: all .25s;
+}
+
+.xxx-g-link--underline:hover {
+	text-decoration: underline;
+}
+
+.xxx-g-link--underline::after {
+	display: none;
+}
+
+.xxx-g-link--advert {
+    text-align: right;
+}
+
+.xxx-g-link--no-bd::after {
+    content: none;
+}
+
+.xxx-g-link--block {
+	display: block;
+}
+
+.xxx-g-link--align-center {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}

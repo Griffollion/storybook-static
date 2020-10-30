@@ -1,0 +1,42 @@
+@media screen and (max-width: 740px){
+
+	h1, .h1 {
+		font-family: 'lato black', sans-serif;
+		font-size: 26px;
+	}
+
+	h2, .h2 {
+		font-family: 'lato black', sans-serif;
+		font-size: 22px;
+	}
+
+	h3, .h3  {
+		font-family: 'lato black', sans-serif;
+		font-size: 20px;
+	}
+
+	h4, .h4  {
+		font-family: 'lato black', sans-serif;
+		font-size: 18px;
+		color: #333e50;
+		text-transform: none;
+	}
+
+	h5, .h5  {
+		font-family: 'lato black', sans-serif;
+		font-size: 16px;
+	}
+
+	h1,h2,h3,h4,h5,
+	.h1,.h2,.h3,.h4,.h5{
+		margin-bottom: 20px;
+	}
+
+	p {
+		margin-bottom: 20px;
+	}
+}
+
+hr {
+	border-top: 1px solid #e8ecef;
+}

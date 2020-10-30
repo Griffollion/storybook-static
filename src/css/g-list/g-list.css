@@ -1,0 +1,299 @@
+.xxx-g-list {
+	padding: 0;
+	list-style-type: none;
+}
+
+.xxx-g-list__border-item {
+	border-bottom: 1px dashed;
+	border-bottom-color: inherit;
+	padding-bottom: 3px;
+}
+
+.xxx-g-list__item {
+	position: relative;
+	padding-left: 35px;
+	margin-bottom: 10px;
+	line-height: 1.5;
+}
+
+.xxx-g-list__item::before {
+	position: absolute;
+	left: 0;
+	top: 0;
+	content: "\e923";
+	font-family: "bankiros";
+	color: #95ce5a;
+}
+
+/* xxx-g-list__item--attention */
+.xxx-g-list__item--attention {
+	color: #f3b30e;
+	-webkit-transition: color 0.25s;
+	-moz-transition: color 0.25s;
+	-o-transition: color 0.25s;
+	transition: color 0.25s;
+}
+
+.xxx-g-list__item--attention::before {
+	content: "\e968";
+	color: #f3b30e;
+}
+
+.xxx-g-list__item--attention .xxx-g-list__border-item {
+	border-bottom-color: #f3b30e;
+}
+
+.xxx-g-list__item--attention.tooltip-click:hover {
+	color: #ca9610;
+}
+
+.xxx-g-list__item--attention.tooltip-click:hover .xxx-g-list__border-item {
+	border-bottom-color: #ca9610;
+}
+
+/* xxx-g-list__item--attention //end */
+
+/* xxx-g-list__item--error */
+.xxx-g-list__item--error {
+	color: #f5372b;
+	-webkit-transition: color 0.25s;
+	-moz-transition: color 0.25s;
+	-o-transition: color 0.25s;
+	transition: color 0.25s;
+}
+
+.xxx-g-list__item--error::before {
+	content: "\e916";
+	color: #f5372b;
+}
+
+.xxx-g-list__item--error .xxx-g-list__border-item {
+	border-bottom-color: #f5372b;
+}
+
+.xxx-g-list__item--error.tooltip-click:hover {
+	color: #a31d15;
+}
+
+.xxx-g-list__item--error.tooltip-click:hover .xxx-g-list__border-item {
+	border-bottom-color: #a31d15;
+}
+/* xxx-g-list__item--error //end */
+
+.xxx-g-list__item.disabled {
+	color: #adb4bf;
+}
+
+.xxx-g-list__item.disabled:before {
+	content: "\e916";
+	color: #adb4bf;
+}
+
+.xxx-g-list__accent {
+	font-family: "lato black", sans-serif;
+}
+
+.xxx-g-list__emphasize {
+	color: #adb4bf;
+}
+
+/* xxx-g-list--col-* */
+.xxx-g-list--col-2 {
+	column-count: 2;
+}
+
+.xxx-g-list--col-3 {
+	column-count: 3;
+}
+
+.xxx-g-list--col-4 {
+	column-count: 4;
+}
+/* xxx-g-list--col-* //end */
+
+/* xxx-g-list--uncheck */
+.xxx-g-list--uncheck .xxx-g-list__item::before {
+	content: "\e916";
+	color: #adb4bf;
+}
+/* xxx-g-list--uncheck //end */
+
+/* xxx-g-list--dots */
+.xxx-g-list--dots .xxx-g-list__item::before {
+	content: "";
+	left: 13px;
+	top: 7px;
+	width: 5px;
+	height: 5px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	background-color: #95ce5a;
+}
+/* xxx-g-list--dots //end */
+
+/* xxx-g-list--dots-gray */
+.xxx-g-list--dots-gray .xxx-g-list__item::before {
+	content: "";
+	left: 13px;
+	top: 11px;
+	width: 5px;
+	height: 5px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	background-color: #adb4bf;
+}
+/* xxx-g-list--dots-gray //end */
+
+/* xxx-g-list--num */
+.xxx-g-list--num {
+	counter-reset: listNum;
+}
+
+.xxx-g-list--num .xxx-g-list__item::before {
+	counter-increment: listNum;
+	content: counter(listNum) ".";
+	font-family: "lato black", sans-serif;
+}
+/* xxx-g-list--num //end */
+
+/* xxx-g-list--content-num */
+.xxx-g-list--content-num {
+	counter-reset: listNum;
+}
+
+.xxx-g-list--content-num li::before {
+	counter-increment: listNum;
+	content: counter(listNum) ".";
+	font-family: "lato black", sans-serif;
+}
+/* xxx-g-list--content-num //end */
+
+/* xxx-g-list--num-start-* */
+.xxx-g-list--num-start-2 {
+	counter-reset: listNum 1;
+}
+
+.xxx-g-list--num-start-3 {
+	counter-reset: listNum 2;
+}
+
+.xxx-g-list--num-start-4 {
+	counter-reset: listNum 3;
+}
+
+.xxx-g-list--num-start-5 {
+	counter-reset: listNum 4;
+}
+
+.xxx-g-list--num-start-6 {
+	counter-reset: listNum 5;
+}
+
+.xxx-g-list--num-start-7 {
+	counter-reset: listNum 6;
+}
+
+.xxx-g-list--num-start-8 {
+	counter-reset: listNum 7;
+}
+
+.xxx-g-list--num-start-9 {
+	counter-reset: listNum 8;
+}
+
+.xxx-g-list--num-start-10 {
+	counter-reset: listNum 9;
+}
+
+.xxx-g-list--num-start-11 {
+	counter-reset: listNum 10;
+}
+
+.xxx-g-list--num-start-12 {
+	counter-reset: listNum 11;
+}
+
+.xxx-g-list--num-start-13 {
+	counter-reset: listNum 12;
+}
+
+.xxx-g-list--num-start-14 {
+	counter-reset: listNum 13;
+}
+
+.xxx-g-list--num-start-15 {
+	counter-reset: listNum 14;
+}
+
+.xxx-g-list--num-start-16 {
+	counter-reset: listNum 15;
+}
+
+.xxx-g-list--num-start-17 {
+	counter-reset: listNum 16;
+}
+
+.xxx-g-list--num-start-18 {
+	counter-reset: listNum 17;
+}
+
+.xxx-g-list--num-start-19 {
+	counter-reset: listNum 18;
+}
+
+.xxx-g-list--num-start-20 {
+	counter-reset: listNum 19;
+}
+/* xxx-g-list--num-start-* //end */
+
+/* xxx-g-list--content */
+.xxx-g-list--content li {
+	position: relative;
+	padding-left: 35px;
+	margin-bottom: 10px;
+}
+
+.xxx-g-list--content li::before {
+	position: absolute;
+	left: 0;
+	top: 0;
+	content: "\e923";
+	font-family: "bankiros";
+	color: #95ce5a;
+}
+/* xxx-g-list--content //end */
+
+/* xxx-g-list--content-dots */
+.xxx-g-list--content-dots li::before {
+	content: "";
+	left: 13px;
+	top: 7px;
+	width: 5px;
+	height: 5px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	background-color: #95ce5a;
+}
+
+/* xxx-g-list--content-dots //end */
+
+/* xxx-g-list--mb20 */
+.xxx-g-list--mb20 .xxx-g-list__item {
+	margin-bottom: 20px;
+}
+/* xxx-g-list--mb20 //end */
+
+/* xxx-g-list--mb-15 */
+.xxx-g-list--mb-15 li {
+	margin-bottom: 15px;
+}
+/* xxx-g-list--mb-15 //end */
+
+/* Партизан */
+.xxx-g-list-group {
+	list-style-type: none;
+	padding-left: 0;
+}

@@ -1,0 +1,69 @@
+/* card-block по-ходу это вообще никак не относится к этому компоненту */
+
+@media screen and (max-width: 740px) {
+	/* xxx-card-block--mob-p */
+	.xxx-card-block.xxx-card-block--mob-p {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	
+	/* xxx-card-block--mob-p //end */
+}
+
+/* card-block //end */
+
+/* cards */
+@media screen and (max-width: 1015px) {
+	.xxx-cards__item {
+		width: calc(100% / 3 - 20px);
+	}
+}
+
+@media screen and (max-width: 850px) {
+	.xxx-cards__item {
+		width: calc(100% / 2 - 20px);
+	}
+}
+
+@media screen and (max-width: 740px) {
+	.xxx-cards {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	
+	.xxx-cards__item {
+		margin: 5px 0;
+		width: 100%;
+	}
+	
+	/* xxx-cards--mob-p */
+	.xxx-cards.xxx-cards--mob-p {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	
+	/* xxx-cards--mob-p //end */
+	/* xxx-cards--best-first */
+	.xxx-cards.xxx-cards--best-first .xxx-cards__item:first-child:before {
+		left: -35px;
+	}
+	
+	/* xxx-cards--best-first //end */
+	/* xxx-cards--best-deals */
+	.xxx-cards.xxx-cards--best-deals .xxx-cards__item:last-child {
+		padding-right: 15px;
+	}
+	
+	.xxx-cards.xxx-cards--best-deals .xxx-cards__item:first-child {
+		margin-left: 15px;
+	}
+	
+	.xxx-cards.xxx-cards--best-deals .xxx-cards__item {
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+	
+	/* xxx-cards--best-deals //end */
+}
+
+/* cards //end */

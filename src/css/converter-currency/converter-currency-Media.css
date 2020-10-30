@@ -1,0 +1,23 @@
+@media screen and (min-width: 740px) {
+    .xxx-converter-currency {
+        border-top: 1px solid #E8ECEF;
+    }
+}
+@media screen and (min-width: 991px) {
+    .xxx-converter-currency__inside {
+        overflow: visible;
+    }
+    .xxx-converter-currency__inside {
+        padding: 20px 0;
+        justify-content: space-between;
+    }
+    .xxx-converter-currency__right {
+        min-width: unset;
+    }
+    .xxx-converter-currency__inside:after {
+        display: none;
+    }
+    .xxx-converter-currency__list-item {
+        margin-right: 40px;
+    }
+}

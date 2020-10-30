@@ -1,0 +1,269 @@
+[class^="xxx-ic"]:before, [class*="xxx-ic"]:before {
+	font-family: "bankiros" !important;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.xxx-ic-atm_icon:before {
+	content: "\e900";
+}
+
+.xxx-ic-auto_icon:before {
+	content: "\e901";
+}
+
+.xxx-ic-bank_icon:before {
+	content: "\e902";
+}
+
+.xxx-ic-bank_rating_icon:before {
+	content: "\e903";
+}
+
+.xxx-ic-business_icon:before {
+	content: "\e904";
+}
+
+.xxx-ic-calculator_icon:before {
+	content: "\e905";
+}
+
+.xxx-ic-card_icon:before {
+	content: "\e906";
+}
+
+.xxx-ic-cash_icon:before {
+	content: "\e907";
+}
+
+.xxx-ic-credit_icon:before {
+	content: "\e908";
+}
+
+.xxx-ic-crypto_icon:before {
+	content: "\e909";
+}
+
+.xxx-ic-deposit_icon:before {
+	content: "\e90a";
+}
+
+.xxx-ic-immidiate_deposit_icon:before {
+	content: "\e90b";
+}
+
+.xxx-ic-mortgage_icon:before {
+	content: "\e90c";
+}
+
+.xxx-ic-news_icon:before {
+	content: "\e90d";
+}
+
+.xxx-ic-offices_icon:before {
+	content: "\e90e";
+}
+
+.xxx-ic-refinancing_icon:before {
+	content: "\e90f";
+}
+
+.xxx-ic-rub_icon_2:before {
+	content: "\e910";
+}
+
+.xxx-ic-stock_icon:before {
+	content: "\e911";
+}
+
+.xxx-ic-more_icon:before {
+	content: "\e912";
+}
+
+.xxx-ic-exchange_icon:before {
+	content: "\e913";
+}
+
+.xxx-ic-search_icon:before {
+	content: "\e914";
+}
+
+.xxx-ic-location_icon:before {
+	content: "\e915";
+}
+
+.xxx-ic-close_icon:before {
+	content: "\e916";
+}
+
+.xxx-ic-arrow-left_icon:before {
+	content: "\e917";
+}
+
+.xxx-ic-arrow-right_icon:before {
+	content: "\e918";
+}
+
+/*--------------*/
+.xxx-g-icon-in {
+	position: relative;
+	padding-left: 25px;
+}
+
+.xxx-g-icon-in::before {
+	position: absolute;
+	left: 0;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	transform: translateY(-50%);
+	font-family: "bankiros";
+}
+
+.xxx-g-icon-in--eye-icon::before {
+	content: "\e94a";
+}
+
+.xxx-g-icon-in--chat-icon::before {
+	content: "\e93a";
+}
+
+.xxx-g-icon-in--time-icon::before {
+	content: "\e947";
+}
+
+.xxx-g-icon-in--user-icon::before {
+	content: "\e950";
+}
+
+.xxx-g-icon-in--like-icon::before {
+	content: "\e97a";
+}
+
+.xxx-g-icon-in--like-hover-icon {
+	cursor: pointer;
+}
+
+.xxx-g-icon-in--like-hover-icon::before {
+	content: "\e97a";
+}
+
+.xxx-g-icon-in--like-hover-icon:hover {
+	color: #95ce5a;
+}
+
+.xxx-g-icon-in--like-hover-fill-icon {
+	cursor: pointer;
+}
+
+.xxx-g-icon-in--like-hover-fill-icon::before {
+	content: "\e97b";
+}
+
+.xxx-g-icon-in--like-fill-icon::before:hover {
+	content: "\e97b";
+}
+
+/*-----------*/
+
+.xxx-ic-arrow-left-rotate-up {
+	display: inline-block;
+	-webkit-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	transform: rotate(90deg);
+}
+
+.xxx-ic-arrow-left-rotate-down {
+	display: inline-block;
+	-webkit-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	transform: rotate(-90deg);
+}
+
+.xxx-g-icon-in--size-m::before {
+	font-size: 19px;
+}
+
+/*Other icons*/
+
+.fa.fa-chevron-down:before,
+.fa.fa-caret-down:before {
+	font-family: "bankiros" !important;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	content: "\e973" !important;
+}
+
+.fa {
+	display: inline-block;
+}
+
+.fa.fa-chevron-up:before {
+	font-family: "bankiros" !important;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	content: "\e972";
+}
+
+li[data-toggle-text] .toggle-btn .fa-plus {
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+}
+
+li[data-toggle-text="0"] .toggle-btn .fa-plus::before {
+	content: "\e912";
+	font-family: "bankiros";
+	color: #ccc;
+}
+
+li[data-toggle-text="0"] .toggle-btn:hover .fa-plus::before {
+	color: #8ab9cc;
+}
+
+li[data-toggle-text="1"] .toggle-btn .fa-plus::before {
+	content: "\e912";
+	font-family: "bankiros";
+}
+
+.ic-offer_btn .path1:before {
+	content: "\e955";
+	color: rgb(0, 0, 0);
+}
+
+.ic-offer_btn .path2:before {
+	content: "\e956";
+	margin-left: -1em;
+	color: rgb(0, 0, 0);
+}
+
+.ic-offer_btn .path3:before {
+	content: "\e957";
+	margin-left: -1em;
+	color: rgb(255, 255, 255);
+}

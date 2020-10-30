@@ -1,0 +1,89 @@
+@font-face {
+	font-family: 'lato';
+	font-display: swap;
+	src:	url('/fonts/Lato-Regular.woff2') format('woff2'),
+	url('/fonts/Lato-Regular.woff') format('woff');
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family:'lato black';
+	font-display: swap;
+	src:	url('/fonts/Lato-Black.woff2') format("woff2"),
+	url('/fonts/Lato-Black.woff') format('woff');
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'bankiros';
+	font-display: swap;
+	src:	url('/fonts/bankiros.woff') format('woff'),
+	url('/fonts/bankiros.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+h1, .h1 {
+	font-family: 'lato black', sans-serif;
+	font-size: 30px;
+}
+
+h2, .h2 {
+	font-family: 'lato black', sans-serif;
+	font-size: 24px;
+}
+
+h3, .h3  {
+	font-family: 'lato black', sans-serif;
+	font-size: 22px;
+}
+
+h4, .h4  {
+	font-family: 'lato black', sans-serif;
+	font-size: 18px;
+	color: #333e50;
+	text-transform: none;
+}
+
+h5, .h5  {
+	font-family: 'lato black', sans-serif;
+	font-size: 16px;
+}
+
+h1,h2,h3,h4,h5,
+.h1,.h2,.h3,.h4,.h5{
+	display: block;
+	margin-bottom: 20px;
+}
+
+p {
+	line-height: 1.5;
+	margin-bottom: 20px;
+}
+
+i {
+	font-style: italic;
+}
+
+b {
+	font-weight: 600;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    -webkit-transition: color .3s;
+    -moz-transition: color .3s;
+    -o-transition: color .3s;
+    transition: color .3s;
+}
+
+label {
+    font-weight: 300;
+}
+
+.xxx-font-color-dark-grey {
+    color: #333e50;
+}

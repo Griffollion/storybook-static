@@ -1,0 +1,128 @@
+.xxx-converter-currency {
+	background: #fff;
+	border-bottom: 1px solid #e8ecef;
+}
+
+.xxx-converter-currency__inside {
+	display: flex;
+	align-items: center;
+	padding: 20px 15px;
+	overflow-x: auto;
+}
+
+.xxx-converter-currency__inside:after {
+	content: "";
+	display: block;
+	width: 20px;
+	height: 20px;
+	padding: 5px;
+}
+
+.xxx-converter-currency__list {
+	padding: 0;
+	display: flex;
+}
+
+.xxx-converter-currency__list-item {
+	list-style: none;
+	margin-right: 20px;
+}
+
+.xxx-converter-currency__list-top {
+	display: flex;
+	padding-bottom: 5px;
+	align-items: flex-end;
+}
+
+.xxx-converter-currency__list-link {
+	font-size: 16px;
+	line-height: 16px;
+	margin-right: 5px;
+	font-family: "lato black";
+}
+
+.xxx-converter-currency__list-sub-text {
+	font-size: 12px;
+	line-height: 14px;
+	color: #9299a2;
+}
+
+.xxx-converter-currency__list-bottom {
+	display: flex;
+}
+
+.xxx-converter-currency__list-text {
+	margin-right: 5px;
+	font-size: 18px;
+	line-height: 22px;
+	color: #333e50;
+}
+
+.xxx-converter-currency__list-arrow {
+	-webkit-transform: rotate(90deg) translateX(0);
+	-moz-transform: rotate(90deg) translateX(0);
+	-ms-transform: rotate(90deg) translateX(0);
+	-o-transform: rotate(90deg) translateX(0);
+	transform: rotate(90deg) translateX(0);
+}
+
+.xxx-converter-currency__list-arrow:before {
+	content: "\e917";
+	font-family: "bankiros";
+	font-size: 13px;
+}
+
+/* xxx-converter-currency__list-arrow--green */
+.xxx-converter-currency__list-arrow.xxx-converter-currency__list-arrow--green:before {
+	color: #7bc057;
+}
+
+.xxx-converter-currency__list-arrow.xxx-converter-currency__list-arrow--green {
+	-webkit-transform: rotate(90deg) translateX(-2px);
+	-moz-transform: rotate(90deg) translateX(-2px);
+	-ms-transform: rotate(90deg) translateX(-2px);
+	-o-transform: rotate(90deg) translateX(-2px);
+	transform: rotate(90deg) translateX(-2px);
+}
+
+/* xxx-converter-currency__list-arrow--green //end */
+
+/* xxx-converter-currency__list-arrow--red */
+.xxx-converter-currency__list-arrow.xxx-converter-currency__list-arrow--red {
+	-webkit-transform: rotate(-90deg) translateX(2px);
+	-moz-transform: rotate(-90deg) translateX(2px);
+	-ms-transform: rotate(-90deg) translateX(2px);
+	-o-transform: rotate(-90deg) translateX(2px);
+	transform: rotate(-90deg) translateX(2px);
+}
+
+.xxx-converter-currency__list-arrow.xxx-converter-currency__list-arrow--red:before {
+	color: #c72929;
+}
+
+/* xxx-converter-currency__list-arrow--red //end */
+
+.xxx-converter-currency__link {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 5px;
+	width: 210px;
+	height: 45px;
+	margin-left: 30px;
+}
+
+.xxx-converter-currency__link-icon {
+	margin-right: 10px;
+}
+
+.xxx-converter-currency__link-icon:before {
+	content: "\e922";
+	font-family: "bankiros";
+}
+
+.xxx-converter-currency__right {
+	display: flex;
+	align-items: center;
+	min-width: 420px;
+}

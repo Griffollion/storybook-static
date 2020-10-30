@@ -1,0 +1,70 @@
+.xxx-g-checkbox-wrapp {
+	position: relative;
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+}
+
+.xxx-g-checkbox {
+	display: none;
+}
+
+.xxx-g-checkbox__custom {
+	position: relative;
+	width: 25px;
+	height: 25px;
+	border: 1px solid #dadee2;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-transition: all 0.45s;
+	-moz-transition: all 0.45s;
+	-o-transition: all 0.45s;
+	transition: all 0.45s;
+}
+
+.xxx-g-checkbox__custom {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.xxx-g-checkbox__label,
+.xxx-g-checkbox_label {
+	font-size: 14px;
+	margin-left: 5px;
+}
+
+.xxx-g-checkbox:checked + .xxx-g-checkbox__custom {
+	border: 1px solid #55a3ed;
+	background-color: #55a3ed;
+}
+
+.xxx-g-checkbox:checked + .xxx-g-checkbox__custom::before {
+	content: "\e923";
+	font-family: "bankiros";
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	color: #fff;
+}
+
+/* Атавизм. Не использовать в проекте. Вместо него использовать модификаторы текста типа fs-16 */
+.xxx-g-checkbox_label--fz16 {
+	font-size: 16px;
+}
+
+.xxx-g-checkbox-wrapp:hover .xxx-g-checkbox__custom {
+	border-color: #55a3ed;
+}
+
+/* xxx-g-checkbox-wrapp--column */
+.xxx-g-checkbox-wrapp.xxx-g-checkbox-wrapp--column {
+	flex-direction: column;
+	align-items: flex-start;
+}
+/* xxx-g-checkbox-wrapp--column //end */
