@@ -13,11 +13,21 @@
     border-radius: 5px;
     min-height: 50px;
     color: #333E50;
+    transition: box-shadow .3s;
+}
+
+.Storybook-iconsList__item:hover > i {
+    transform: scale(1.2)
+}
+
+.Storybook-iconsList__item:hover {
+    box-shadow: 0 0 10px #333e5048
 }
 
 .Storybook-iconsList__item > i {
     font-size: 40px;
     margin-right: 15px;
+    transition: transform .3s;
 }
 
 .Storybook-iconsList__item > span {

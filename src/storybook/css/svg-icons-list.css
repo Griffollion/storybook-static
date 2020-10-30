@@ -14,10 +14,20 @@
     border-radius: 5px;
     min-height: 50px;
     color: #333E50;
+    transition: box-shadow .3s;
+}
+
+.Storybook-svgIconsList__item:hover {
+    box-shadow: 0 0 10px #333e5048
 }
 
 .Storybook-svgIconsList__item > img {
     margin-right: 15px;
+    transition: transform .3s;
+}
+
+.Storybook-svgIconsList__item:hover > img {
+    transform: scale(1.1)
 }
 
 .Storybook-svgIconsList__item > span {
