@@ -1,6 +1,6 @@
 .Storybook-iconsList {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     grid-template-rows: auto;
     grid-gap: 20px;
 }
@@ -8,7 +8,8 @@
 .Storybook-iconsList__item {
     display: flex;
     align-items: center;
-    padding: 10px;
+    justify-content: space-between;
+    padding: 10px 5px 10px 10px;
     border: 1px solid #333E50;
     border-radius: 5px;
     min-height: 50px;
@@ -30,6 +31,34 @@
     transition: transform .3s;
 }
 
-.Storybook-iconsList__item > span {
+.Storybook-iconsList__item > input {
     font-size: 20px;
+    margin-right: 5px;
+    padding: 10px 0;
+    border: none;
+    background-color: transparent;
+    text-align: center;
+    transition: ouline .3s;
+    width: 100%;
+}
+
+input.Storybook-iconsList__item-code {
+    color: #388EC3;
+    transition: color .3s;
+    width: 55px;
+    text-align: right;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-right: 0;
+}
+
+.Storybook-iconsList__item-code:hover {
+    color: #55A3ED;
+}
+
+
+@media screen and (min-width: 800px ) {
+    .Storybook-iconsList {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
