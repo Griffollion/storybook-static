@@ -385,12 +385,12 @@
 
 	}
 
-	.xxx-share-old--infinity {
+	.xxx-sidebar-wrapper__sidebar .xxx-share {
 		display: none;
 	}
 
-	.xxx-infinity__container.active .xxx-share-old--infinity {
-		display: block;
+	.xxx-infinity__container.active .xxx-sidebar-wrapper__sidebar .xxx-share {
+		display: inline-flex;
 	}
 	/* xxx-share-old //end */
 	/* xxx-share-block */
@@ -772,23 +772,8 @@
 	}
 }
 
-/* Это скорее стоит переименовать и привязать к компоненту яндекс шейра */
-@media (min-width: 740px) {
-	.xxx-share.xxx-share--gray .ya-share2__badge {
-		border: 1px solid #adb4bf !important;
-		background-color: #fff !important;
-	}
-
-	.xxx-share.xxx-share--gray .ya-share2__icon {
-		filter: invert(0.4) !important;
-	}
-
-	.xxx-share.xxx-share--gray .ya-share2__item {
-		transition: opacity 0.25s;
-	}
-
-	.xxx-share.xxx-share--gray .ya-share2__item:hover {
-		opacity: 0.5;
+@media screen and (max-width: 740px) {
+	.ic-icon_rub {
+		font-size:12px
 	}
 }
-/* Это скорее стоит переименовать и привязать к компоненту яндекс шейра //end */

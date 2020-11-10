@@ -109,4 +109,16 @@
 	padding-bottom: 3px;
 }
 
+/* .xxx-g-btn-voting--words */
+.xxx-g-btn-voting.xxx-g-btn-voting--words .xxx-g-btn-voting__item{
+	font-size: 16px;
+	padding: 15px 15px 15px 45px;
+}
+
+.xxx-g-btn-voting.xxx-g-btn-voting--words .xxx-g-btn-voting__item::before {
+	font-size: 18px;
+	left: 15px;
+}
+/* .xxx-g-btn-voting--words //end */
+
 /* .xxx-g-btn-voting //end */

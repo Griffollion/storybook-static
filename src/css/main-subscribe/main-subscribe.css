@@ -34,7 +34,6 @@
 
 .xxx-main-subscribe.xxx-main-subscribe--new .xxx-subscription-form {
 	background: 
-	/* url(../../../new_markup/img/select_credit/mobile_illustration.png) right center no-repeat, radial-gradient(250px at 77% 50%, #f1f4f7 0%, #f1f4f7 80%, rgba(255, 255, 255, 0) 100%), */
 	 url(/images/backgrounds/main-subscribe/mobile_illustration.png) right center no-repeat, radial-gradient(250px at 77% 50%, #f1f4f7 0%, #f1f4f7 80%, rgba(255, 255, 255, 0) 100%);
 }
 

@@ -12,10 +12,89 @@ body {
 	font-family: "lato", sans-serif;
 	line-height: 1.3;
 	font-size: 16px;
-	overflow-anchor: none; /* BR-4478 fix changing scrollTop during ajax call */
+	overflow-anchor: none;
+	/* BR-4478 fix changing scrollTop during ajax call */
 }
 
-html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -34,16 +113,19 @@ ul {
 	height: 500px;
 }
 
-a, .a-link {
+a,
+.a-link {
 	color: #388ec3;
 }
 
-a:hover, .a:hover {
+a:hover,
+.a:hover {
 	color: #7bc057;
 	text-decoration: none;
 }
 
-button, a {
+button,
+a {
 	cursor: pointer;
 }
 
@@ -160,18 +242,22 @@ b {
 	left: 0
 }
 
-.slider.slider-horizontal .slider-selection, .slider.slider-horizontal .slider-track-low, .slider.slider-horizontal .slider-track-high {
+.slider.slider-horizontal .slider-selection,
+.slider.slider-horizontal .slider-track-low,
+.slider.slider-horizontal .slider-track-high {
 	height: 100%;
 	top: 0;
 	bottom: 0
 }
 
-.slider.slider-horizontal .slider-tick, .slider.slider-horizontal .slider-handle {
+.slider.slider-horizontal .slider-tick,
+.slider.slider-horizontal .slider-handle {
 	margin-left: -10px;
 	margin-top: -5px
 }
 
-.slider.slider-horizontal .slider-tick.triangle, .slider.slider-horizontal .slider-handle.triangle {
+.slider.slider-horizontal .slider-tick.triangle,
+.slider.slider-horizontal .slider-handle.triangle {
 	border-width: 0 10px 10px;
 	width: 0;
 	height: 0;
@@ -210,18 +296,21 @@ b {
 	bottom: 0
 }
 
-.slider.slider-vertical .slider-track-low, .slider.slider-vertical .slider-track-high {
+.slider.slider-vertical .slider-track-low,
+.slider.slider-vertical .slider-track-high {
 	width: 100%;
 	left: 0;
 	right: 0
 }
 
-.slider.slider-vertical .slider-tick, .slider.slider-vertical .slider-handle {
+.slider.slider-vertical .slider-tick,
+.slider.slider-vertical .slider-handle {
 	margin-left: -5px;
 	margin-top: -10px
 }
 
-.slider.slider-vertical .slider-tick.triangle, .slider.slider-vertical .slider-handle.triangle {
+.slider.slider-vertical .slider-tick.triangle,
+.slider.slider-vertical .slider-handle.triangle {
 	border-width: 10px 0 10px 10px;
 	width: 1px;
 	height: 1px;
@@ -307,7 +396,8 @@ b {
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff89cdef", endColorstr="#ff81bfde", GradientType=0)
 }
 
-.slider-track-low, .slider-track-high {
+.slider-track-low,
+.slider-track-high {
 	position: absolute;
 	background: transparent;
 	-webkit-box-sizing: border-box;
@@ -456,7 +546,7 @@ b {
 	border-radius: 0;
 }
 
-.slider_wrapper > .slider {
+.slider_wrapper>.slider {
 	position: absolute;
 	top: 29px;
 	left: 15%;
@@ -568,16 +658,16 @@ b {
 	border-top: 1px solid #e5e5e5
 }
 
-.modal-footer .btn + .btn {
+.modal-footer .btn+.btn {
 	margin-bottom: 0;
 	margin-left: 5px
 }
 
-.modal-footer .btn-group .btn + .btn {
+.modal-footer .btn-group .btn+.btn {
 	margin-left: -1px
 }
 
-.modal-footer .btn-block + .btn-block {
+.modal-footer .btn-block+.btn-block {
 	margin-left: 0
 }
 
@@ -1128,7 +1218,8 @@ input:-webkit-autofill {
 	font-family: "lato black", sans-serif;
 }
 
-.xxx-banks-page__inner, .xxx-credit-card-page__inner {
+.xxx-banks-page__inner,
+.xxx-credit-card-page__inner {
 	display: flex;
 	justify-content: space-between;
 }
@@ -1343,6 +1434,15 @@ input:-webkit-autofill {
 	width: 100%;
 }
 
+.xxx-sidebar-wrapper.xxx-sidebar-wrapper--with-share .xxx-sidebar-wrapper__sidebar {
+	margin-left: -55px;
+	width: 0;
+}
+
+.xxx-sidebar-wrapper.xxx-sidebar-wrapper--with-share .xxx-sidebar-wrapper__content {
+	width: 100%;
+}
+
 /*xxx-sidebar-wrapper //end*/
 
 /*blockquote*/
@@ -1521,7 +1621,8 @@ blockquote::after {
 /* fly-bloc //end */
 
 /* data-scroll-show */
-[data-scroll-show], [data-scroll-show-desc] {
+[data-scroll-show],
+[data-scroll-show-desc] {
 	-webkit-transform: translateY(-100%);
 	-moz-transform: translateY(-100%);
 	-ms-transform: translateY(-100%);
@@ -1531,7 +1632,8 @@ blockquote::after {
 	will-change: transform;
 }
 
-[data-scroll-show].active, [data-scroll-show-desc].active {
+[data-scroll-show].active,
+[data-scroll-show-desc].active {
 	-webkit-transform: translateY(0);
 	-moz-transform: translateY(0);
 	-ms-transform: translateY(0);
@@ -1756,11 +1858,12 @@ blockquote::after {
 }
 
 /* xxx-share-old //end */
-.last-child-no-margin > *:last-child {
+.last-child-no-margin>*:last-child {
 	margin-bottom: 0;
 }
 
-html, body {
+html,
+body {
 	height: 100%;
 }
 
@@ -1898,11 +2001,13 @@ html, body {
 }
 
 .rating-block__marker--good {
-	background-color: #87cb22;;
+	background-color: #87cb22;
+;
 }
 
 .rating-block__marker--normal {
-	background-color: #a9cb61;;
+	background-color: #a9cb61;
+;
 }
 
 .rating-block__marker--middle {
@@ -1910,7 +2015,8 @@ html, body {
 }
 
 .rating-block__marker--bad {
-	background-color: #f66932;;
+	background-color: #f66932;
+;
 }
 
 .rating-block__rating {
@@ -2010,7 +2116,8 @@ html, body {
 }
 
 .xxx-text-color-blue {
-	color: #388ec3;;
+	color: #388ec3;
+;
 }
 
 .xxx-font-size-12 {
@@ -2234,7 +2341,8 @@ html, body {
 
 @media screen and (max-width: 740px) {
 
-	.mfo-offer-block, .mfo-offer-block iframe {
+	.mfo-offer-block,
+	.mfo-offer-block iframe {
 		border-top: none;
 	}
 }
@@ -2335,7 +2443,9 @@ html, body {
 	overflow-x: auto;
 }
 
-.js_link, .js_link_blank, .link_span {
+.js_link,
+.js_link_blank,
+.link_span {
 	cursor: pointer;
 }
 
@@ -2356,7 +2466,8 @@ html, body {
 	font-style: normal;
 }
 
-.rus_rub:before, ._currency_5:after {
+.rus_rub:before,
+._currency_5:after {
 	content: "\e958";
 }
 
@@ -2406,7 +2517,7 @@ th {
 	margin-bottom: 0
 }
 
-.table-standard tr > * {
+.table-standard tr>* {
 	border: 1px solid #ccc;
 	font-size: 14px;
 	padding: 10px;
@@ -2639,6 +2750,7 @@ th {
 	0% {
 		transform: rotate(0deg);
 	}
+
 	100% {
 		transform: rotate(360deg);
 	}
@@ -2955,13 +3067,16 @@ th {
 	.delivery-mob .xxx-text-color-darck-gray {
 		justify-content: flex-start;
 	}
+
 	.delivery-mob {
 		margin-bottom: 10px;
 		margin-top: 0;
 	}
+
 	.xxx-faq-widget {
 		padding: 20px 15px 10px 15px;
 	}
+
 	.xxx-faq-widget .xxx-container--mob-p {
 		padding: 0;
 	}
@@ -3027,7 +3142,8 @@ th {
 	transform-origin: right bottom;
 }
 
-.show-converter:hover, .show-converter:focus {
+.show-converter:hover,
+.show-converter:focus {
 	outline: none;
 }
 
@@ -3038,4 +3154,8 @@ th {
 .show-converter__icon:before {
 	content: "\e922";
 	font-family: "bankiros";
+}
+
+.ic-icon_rub {
+	font-size: 14px
 }

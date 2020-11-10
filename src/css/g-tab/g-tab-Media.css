@@ -29,10 +29,23 @@
 	.xxx-tab__list.xxx-table-list__info-tabs-menu {
 		padding: 0 20px;
 	}
+	.mob\:xxx-tab-list-wrap--border-l-0 {
+        margin-left: 0;
+    }
 }
 
 @media screen and (max-width: 740px) {
 	.xxx-tab__list.xxx-tab__list--mob-paddings-0-15 {
 		padding: 0 15px;
 	}
+}
+
+@media screen and (max-width: 480px) {
+    .xxx-tab.mob\:xxx-tab--full{
+        width: 100%;
+    }
+
+    .xxx-tab.mob\:xxx-tab--full .xxx-tab__list{
+        width: 100%;
+    }
 }

@@ -27,3 +27,23 @@
 }
 
 /*xxx-g-btn-voting--small //end*/
+
+/* .xxx-g-btn-voting--words */
+@media screen and (max-width: 740px) {
+	.xxx-g-btn-voting.xxx-g-btn-voting--words .xxx-g-btn-voting__item::before{
+		top: 50%;
+	}
+	.xxx-g-btn-voting.xxx-g-btn-voting--words{
+		border: none;
+	}
+
+	.xxx-g-btn-voting.xxx-g-btn-voting--words .xxx-g-btn-voting__item{
+		border: 1px solid #DADEE2;
+		border-radius: 5px;
+	}
+
+	.xxx-g-btn-voting.xxx-g-btn-voting--words .xxx-g-btn-voting__item:first-of-type{
+		margin-right: 10px;
+	}
+}
+/* .xxx-g-btn-voting--words //end */
