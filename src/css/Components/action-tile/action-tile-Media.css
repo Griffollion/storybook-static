@@ -1,0 +1,56 @@
+@media screen and (min-width: 1200px) {
+    .xxx-action-tile {
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: "name logo" "price chart";
+        grid-gap: 20px;
+    }
+
+    .xxx-action-tile__btn {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        opacity: 0;
+        pointer-events: none;
+        transform: scale(0);
+        transition: transform .3s;
+    }
+    .xxx-action-tile:hover .xxx-action-tile__chart {
+        opacity: 0;
+        pointer-events: none;
+    }
+    .xxx-action-tile:hover  .xxx-action-tile__btn {
+        opacity: 1;
+        pointer-events: auto;
+        transform: scale(1);
+    }
+    /* xxx-action-tile-container */
+    /* xxx-action-tile-container--scroll */
+    .xxx-action-tile-container.xxx-action-tile-container--scroll {
+        margin-left: 0;
+        margin-right: 0;
+        overflow: unset;
+    }
+
+    .xxx-action-tile-container.xxx-action-tile-container--scroll .xxx-action-tile-container__wrapper {
+        display: grid;
+        padding-left: 0;
+        padding-right: 0;
+        grid-template-columns: repeat(4, 1fr);
+        grid-column-gap: 30px;
+    }
+
+    .xxx-action-tile-container.xxx-action-tile-container--scroll .xxx-action-tile-container__item {
+        width: auto;
+        min-width: auto;
+        padding-right: 0;
+    }
+
+    .xxx-action-tile-container.xxx-action-tile-container--scroll .xxx-action-tile:hover {
+        box-shadow: 0 5px 20px rgba(51, 62, 80, 0.15);
+        border-color: transparent;
+    }
+
+    /* xxx-action-tile-container--scroll //end */
+    /* xxx-action-tile-container //end */
+}

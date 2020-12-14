@@ -1,0 +1,58 @@
+@media screen and (min-width: 740px) {
+    .xxx-action-tile-detail__btn.mob\:xxx-action-tile-detail__btn--fixed {
+        position: static;
+        padding: 0;
+        background-color: transparent;
+    }
+    .xxx-action-tile-detail {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "head info"
+        "cost info"
+        "status info"
+        "btn info";
+        grid-column-gap: 30px;
+    }
+
+    .xxx-action-tile-detail__head {
+        grid-area: head;
+        grid-template-columns: 60px 1fr;
+    }
+
+    .xxx-action-tile-detail__status {
+        grid-area: status;
+    }
+
+    .xxx-action-tile-detail__logo {
+        width: 60px;
+        height: 60px;
+    }
+
+    .xxx-action-tile-detail__logo:before {
+        font-size: 20px;
+    }
+
+    .xxx-action-tile-detail__name {
+        font-size: 22px;
+    }
+
+    .xxx-action-tile-detail__cost {
+        margin-top: 40px;
+        grid-area: cost;
+    }
+
+    .xxx-action-tile-detail__cost-value {
+        font-size: 35px;
+    }
+
+    .xxx-action-tile-detail__btn {
+        margin-top: 30px;
+        grid-area: btn;
+    }
+
+    .xxx-action-tile-detail__info {
+        border-left: 1px solid #E8ECEF;
+        padding-left: 30px;
+        grid-area: info;
+    }
+}

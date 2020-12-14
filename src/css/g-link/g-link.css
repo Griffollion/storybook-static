@@ -6,7 +6,7 @@
 	padding: 0;
 	line-height: 1;
 	outline: none;
-    cursor: pointer;
+	cursor: pointer;
 	-webkit-transition: color 0.25s;
 	-o-transition: color 0.25s;
 	transition: color 0.25s;
@@ -36,13 +36,33 @@
 	color: #7bc057;
 }
 
+.xxx-g-link--dark-gray {
+	color: #9299A2;
+}
+
 .xxx-g-link--green::after {
+	border-bottom-color: #7bc057;
+}
+
+.xxx-g-link--dark-gray {
+	color: #9299a2;
+}
+
+.xxx-g-link--dark-gray::after {
+	border-bottom-color: #9299a2;
+}
+
+.xxx-g-link--dark-gray:hover {
+	color: #7bc057;
+}
+
+.xxx-g-link--dark-gray:hover::after {
 	border-bottom-color: #7bc057;
 }
 
 .xxx-g-link--black {
 	color: #333e50;
-    cursor: pointer;
+	cursor: pointer;
 }
 
 .xxx-g-link--black:hover {
@@ -66,9 +86,9 @@
 }
 
 .xxx-g-link--underline {
-    text-decoration: underline;
-    -webkit-transition: all .25s;
-    -o-transition: all .25s;
+	text-decoration: underline;
+	-webkit-transition: all .25s;
+	-o-transition: all .25s;
 	transition: all .25s;
 }
 
@@ -81,11 +101,11 @@
 }
 
 .xxx-g-link--advert {
-    text-align: right;
+	text-align: right;
 }
 
 .xxx-g-link--no-bd::after {
-    content: none;
+	content: none;
 }
 
 .xxx-g-link--block {
@@ -97,6 +117,6 @@
 	display: -ms-flexbox;
 	display: flex;
 	-webkit-box-align: center;
-	    -ms-flex-align: center;
-	        align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
 }

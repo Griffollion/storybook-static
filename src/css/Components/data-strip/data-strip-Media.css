@@ -1,0 +1,8 @@
+@media screen and (min-width: 1024px) {
+	.mob\:xxx-data-strip--with-btn .xxx-data-strip__control {
+		display: none;
+	}
+	.xxx-data-strip__control:hover {
+		color: #95ce5a;
+	}
+}
